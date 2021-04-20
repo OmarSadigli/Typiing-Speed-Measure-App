@@ -92,7 +92,6 @@ window.title("Speedy Typer")
 window.geometry("850x450")
 window.config(bg=BG_COLOR,padx=45,pady=25)
 
-sv = StringVar()
 
 canvas = Canvas(height=150,width=150,bg=BG_COLOR,highlightthickness=0)
 logo_img = PhotoImage(file='keyboard.png')
